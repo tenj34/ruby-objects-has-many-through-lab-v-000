@@ -11,9 +11,7 @@ class Artist
     @@all
   end
 
-  def new_song
-
+  def songs
 
   end
-
 end

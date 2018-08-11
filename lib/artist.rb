@@ -15,6 +15,10 @@ class Artist
     Song.all.collect {|song|song.genre}
   end
 
+  def genres
+
+  end
+
   def new_song(name,genre)
     Song.new(name,self,genre)
   end

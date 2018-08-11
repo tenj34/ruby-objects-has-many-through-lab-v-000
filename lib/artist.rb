@@ -12,11 +12,11 @@ class Artist
   end
 
   def songs
-    Song.all.collect {|song|song.genre}
+    Song.all.select {|song|song.genre}
   end
 
   def genres
-
+    song
   end
 
   def new_song(name,genre)
